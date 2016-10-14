@@ -41,11 +41,8 @@ CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
 unsigned int nTargetSpacing = 30; // 30 seconds
-// unsigned int nStakeMinAge = 24 * 60 * 60 ; // 24 hours
-// unsigned int nStakeMaxAge = 25 * 60 * 60 ;           //25 hours Max stake age
-
-unsigned int nStakeMinAge = 30 ; // 24 hours
-unsigned int nStakeMaxAge = -1 ;           //25 hours Max stake age
+unsigned int nStakeMinAge = 24 * 60 * 60 ; // 24 hours
+unsigned int nStakeMaxAge = 25 * 60 * 60 ;           //25 hours Max stake age
 unsigned int nModifierInterval = 10 * 60 ; // time to elapse before new modifier is computed
 
 int nCoinbaseMaturity = 20;
